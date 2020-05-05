@@ -1,5 +1,9 @@
 {
-  "name": "vanilla-js-template",
+  "name": "covid19-economic-impact",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisvaillancourt/covid19-economic-impact.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
