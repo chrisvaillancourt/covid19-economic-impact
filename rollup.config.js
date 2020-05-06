@@ -47,7 +47,11 @@ export default {
       minimize: true,
     }),
     copy({
-      targets: [{ src: 'public/*', dest: OUTPUT }],
+      targets: [
+        { src: 'src/index.html', dest: OUTPUT },
+        { src: 'src/favicon.ico', dest: OUTPUT },
+        { src: 'src/styles/', dest: OUTPUT },
+      ],
     }),
     ...SERVER,
   ],
