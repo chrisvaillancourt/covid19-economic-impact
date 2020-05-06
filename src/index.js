@@ -11,3 +11,5 @@ csv(
     l(filteredData);
   })
   .catch((error) => console.error(error));
+// TODO ADD MAP COMPONENT
+// TODO CREATE FEATURE LAYER FROM ARRAY OF DATA
